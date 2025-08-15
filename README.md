@@ -17,15 +17,15 @@ dockerizing-example/
 └-- README.md
 
 ## 🛠 How to Run Locally (Without Docker)
-pip install -r requirements.txt
-python app.py
+pip install -r requirements.txt \\
+python app.py \\
 The app will run on http://localhost:5000.
 
 ## 🐳 How to Run with Docker
-Build the image
+Build the image\\
 docker build -t dockerizing-example:v2 .
 
-Run the container
+Run the container \\
 docker run -p 5000:5000 dockerizing-example:v1
 
 
